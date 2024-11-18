@@ -20,6 +20,10 @@ const userRouter = require('./router/user-router');
 
 app.use('/perticular',userRouter);
 
+setTimeout(()=>{
+   console.log('hello world')
+},500)
+
 
 
 
